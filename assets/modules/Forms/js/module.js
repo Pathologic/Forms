@@ -253,6 +253,7 @@ var GridHelper = {
                     if (response.finished && response.exported > 0) {
                         $.messager.alert(that.translate('export_completed'), that.translate('exported') + ': ' + response.exported + '<br><br><a class="btn btn-info" target="_blank" href="' + response.filename + '">Скачать файл</a>');
                     } else {
+                        exportProcess = true;
                         $('span', '#exportDlg').text(response.exported);
                         GridHelper.processExport();
                     }
