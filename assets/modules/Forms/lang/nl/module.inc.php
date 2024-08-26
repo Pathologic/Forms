@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'type'              => 'Formulier type',
+    'sender'            => 'Formulier afzender',
+    'phone'             => 'Telefoon',
+    'date'              => 'Verzonden op',
+    'from'              => 'van',
+    'view'              => 'Formulierweergave',
+    'error'             => 'Fout',
+    'server_error'      => 'Serverfout',
+    'response_error'    => 'Kan serverrespons niet verwerken',
+    'delete'            => 'Verwijderen',
+    'sure_to_delete'    => 'Weet u zeker dat u geselecteerde resultaten wilt verwijderen?',
+    'delete_error'      => 'Verwijderen mislukt',
+    'view_error'        => 'Kan gegevens niet ophalen',
+    'processing_export' => 'Bezig met exporteren',
+    'exported'          => 'Records geëxporteerd',
+    'export_error'      => 'Export mislukt',
+    'export_completed'  => 'Export voltooid',
+    'search_and_export' => 'Zoeken en exporteren',
+    'search'            => 'Zoeken',
+    'export'            => 'Exporteren',
+    'close'             => 'Sluiten',
+    'forms_data'        => 'Formuliergegevens',
+    'from_date'         => 'Vanaf datum',
+    'to_date'           => 'Tot datum',
+];
